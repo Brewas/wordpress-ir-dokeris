@@ -1,0 +1,9 @@
+# Ignore Docker volumes
+db_data/
+wordpress_data/
+
+# Ignore environment files
+.env
+
+# Ignore system files
+.DS_Store
