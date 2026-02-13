@@ -1,9 +1,14 @@
-# Ignore Docker volumes
+# Dockerio failai
 db_data/
 wordpress_data/
 
-# Ignore environment files
+# environment failai
 .env
 
-# Ignore system files
+# sistema
 .DS_Store
+
+# wordpresso failai
+/wp-content/uploads/
+/wp-content/cache/
+wp-config.php
