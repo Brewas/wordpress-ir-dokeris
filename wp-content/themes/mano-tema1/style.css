@@ -8,3 +8,84 @@ Version: 1.0
 License: GNU General Public License v2 or later
 Text Domain: mano-tema1
 */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.site-header {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.main-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #5f0fff, #a100ff);
+    color: white;
+    padding: 150px 60px 100px 60px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left {
+    max-width: 500px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: #ffc107;
+    padding: 14px 30px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero-right img {
+    max-width: 500px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background: #f2f2f2;
+}
+
+.feature {
+    max-width: 200px;
+    text-align: center;
+}
