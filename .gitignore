@@ -11,4 +11,6 @@ wordpress_data/
 # wordpresso failai
 /wp-content/uploads/
 /wp-content/cache/
+/wp-content/plugins/
+/wp-content/themes/
 wp-config.php
