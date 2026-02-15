@@ -11,4 +11,10 @@ wordpress_data/
 # wordpresso failai
 /wp-content/uploads/
 /wp-content/cache/
+/wp-content/plugins/
+/wp-content/themes/
+/wp-content/composer.json
+/wp-content/composer.lock
+/wp-content/vendor/
+/wp-content/wp-content/
 wp-config.php
