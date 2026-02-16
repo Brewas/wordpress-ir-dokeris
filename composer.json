@@ -1,0 +1,26 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+
+  "require": {
+    "composer/installers": "^2.0",
+    "wpackagist-plugin/woocommerce": "^8.0"
+  },
+
+  "extra": {
+    "installer-paths": {
+      "wp-content/vendor-plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
