@@ -469,3 +469,94 @@ Stack trace:
 #16 {main}
   thrown in /var/www/html/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/RuntimeContainer.php on line 105
 [17-Feb-2026 20:08:42 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:23 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:23 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:23 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:25 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:25 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:26 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:26 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:26 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:27 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:27 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:27 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:28 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:28 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:28 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:29 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:29 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:29 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:40 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:40 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:40 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:17:58 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:17:58 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:17:58 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:18:49 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:18:49 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 50
+[17-Feb-2026 20:18:49 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[17-Feb-2026 20:22:54 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:22:54 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/vendor-plugins/woocommerce/vendor/jetpack-autoloader/class-version-selector.php on line 63
+[17-Feb-2026 20:22:54 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #2 ($version2) of type string is deprecated in /var/www/html/wp-content/vendor-plugins/woocommerce/vendor/jetpack-autoloader/class-version-selector.php on line 48
+[17-Feb-2026 20:22:54 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:19 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:19 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:19 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:19 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:21 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:23 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:23 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:24 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:24 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:30 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:30 UTC] PHP Fatal error:  Uncaught Automattic\WooCommerce\Internal\DependencyManagement\ContainerException: Attempt to get an instance of class 'Automattic\WooCommerce\Internal\RegisterHooksInterface', which doesn't exist. in /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php:105
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php(78): Automattic\WooCommerce\Internal\DependencyManagement\RuntimeContainer->get_core('Automattic\\WooC...', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce-backup/src/Container.php(68): Automattic\WooCommerce\Internal\DependencyManagement\RuntimeContainer->get('Automattic\\WooC...')
+#2 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(286): Automattic\WooCommerce\Container->get('Automattic\\WooC...')
+#3 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(194): WooCommerce->init_hooks()
+#4 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(152): WooCommerce->__construct()
+#5 /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php(51): WooCommerce::instance()
+#6 /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php(66): WC()
+#7 /var/www/html/wp-content/mu-plugins/vendor-loader.php(48): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-includes/class-wp-hook.php(341): load_vendor_plugins('')
+#9 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-settings.php(593): do_action('plugins_loaded')
+#12 /var/www/html/wp-config.php(147): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-admin/admin.php(35): require_once('/var/www/html/w...')
+#15 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#16 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php on line 105
+[17-Feb-2026 20:23:32 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:32 UTC] PHP Fatal error:  Uncaught Automattic\WooCommerce\Internal\DependencyManagement\ContainerException: Attempt to get an instance of class 'Automattic\WooCommerce\Internal\RegisterHooksInterface', which doesn't exist. in /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php:105
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php(78): Automattic\WooCommerce\Internal\DependencyManagement\RuntimeContainer->get_core('Automattic\\WooC...', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce-backup/src/Container.php(68): Automattic\WooCommerce\Internal\DependencyManagement\RuntimeContainer->get('Automattic\\WooC...')
+#2 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(286): Automattic\WooCommerce\Container->get('Automattic\\WooC...')
+#3 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(194): WooCommerce->init_hooks()
+#4 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/class-woocommerce.php(152): WooCommerce->__construct()
+#5 /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php(51): WooCommerce::instance()
+#6 /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php(66): WC()
+#7 /var/www/html/wp-content/mu-plugins/vendor-loader.php(48): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-includes/class-wp-hook.php(341): load_vendor_plugins('')
+#9 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-settings.php(593): do_action('plugins_loaded')
+#12 /var/www/html/wp-config.php(147): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-admin/admin.php(35): require_once('/var/www/html/w...')
+#15 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#16 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce-backup/src/Internal/DependencyManagement/RuntimeContainer.php on line 105
+[17-Feb-2026 20:23:33 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:33 UTC] Vendor Loader: Loaded plugin: woocommerce
+[17-Feb-2026 20:23:34 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[17-Feb-2026 20:23:34 UTC] Vendor Loader: Loaded plugin: woocommerce
