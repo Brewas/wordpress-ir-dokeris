@@ -560,3 +560,672 @@ Stack trace:
 [17-Feb-2026 20:23:33 UTC] Vendor Loader: Loaded plugin: woocommerce
 [17-Feb-2026 20:23:34 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
 [17-Feb-2026 20:23:34 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 05:31:10 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 05:31:10 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 05:32:10 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 05:32:10 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 09:23:37 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 09:23:37 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 09:24:38 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 09:24:38 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 09:26:39 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 09:26:39 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:45:22 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:45:22 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:28 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:28 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:29 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:29 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:31 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:31 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:37 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:37 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function as_next_scheduled_action() in /var/www/html/wp-content/vendor-plugins/woocommerce/includes/queue/class-wc-action-queue.php:127
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/admin/marketplace-suggestions/class-wc-marketplace-suggestions.php(200): WC_Action_Queue->get_next('woocommerce_upd...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/includes/admin/class-wc-admin-assets.php(544): WC_Marketplace_Suggestions::get_suggestions_api_data()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): WC_Admin_Assets->admin_scripts('woocommerce_pag...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin-header.php(123): do_action('admin_enqueue_s...', 'woocommerce_pag...')
+#6 /var/www/html/wp-admin/admin.php(244): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/includes/queue/class-wc-action-queue.php on line 127
+[18-Feb-2026 18:47:39 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:39 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:39 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:40 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:47:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:47:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:48:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:48:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:50:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:50:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:52:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:52:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:54:41 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:54:41 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:55:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:55:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:57:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:57:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 18:58:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 18:58:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:00:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:00:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:02:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:02:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:03:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:03:51 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:05:52 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:05:53 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:07:52 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:07:52 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:09:53 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:09:53 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 19:11:53 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 19:11:53 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:24 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:25 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:25 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:26 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:26 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:26 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:27 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:27 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:27 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:28 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:28 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:28 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:29 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:29 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:29 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:30 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:30 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php:554
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(554): call_user_func('as_next_schedul...', 'wc_schedule_pen...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(86): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/load.php(1308): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php on line 554
+[18-Feb-2026 20:08:31 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:31 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:31 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:35 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:35 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 /var/www/html/wp-admin/index.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:35 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:37 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:37 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:37 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:42 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:42 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:42 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:08:45 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:08:45 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:08:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php:81
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(81): call_user_func('as_next_schedul...', 'woocommerce_cle...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php(63): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(180): do_action('admin_init')
+#6 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Blocks/Domain/Services/DraftOrders.php on line 81
+[18-Feb-2026 20:08:45 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:14:13 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:35 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:33:35 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:33:36 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:36 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:33:51 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:33:51 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:33:51 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:51 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:33:52 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:33:52 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:33:52 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:52 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:33:53 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:33:53 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:33:53 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:53 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:33:54 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:33:54 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:33:54 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:33:54 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:34:01 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:34:01 UTC] PHP Fatal error:  Cannot redeclare WC() (previously declared in /var/www/html/wp-content/plugins/woocommerce-backup/woocommerce.php:46) in /var/www/html/wp-content/vendor-plugins/woocommerce/woocommerce.php on line 46
+[18-Feb-2026 20:34:01 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:34:01 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:40:40 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:40 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:40 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:40 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:40 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php:554
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(554): call_user_func('as_next_schedul...', 'wc_schedule_pen...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(86): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/load.php(1308): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php on line 554
+[18-Feb-2026 20:40:42 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:42 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:42 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:48 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:48 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:48 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:58 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:58 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:58 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:59 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:59 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:40:59 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:40:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:40:59 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:00 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:00 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:00 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:03 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:03 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:03 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:03 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:03 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:03 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:04 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:04 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/about.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:04 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:04 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:04 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php:554
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(554): call_user_func('as_next_schedul...', 'wc_schedule_pen...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(86): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/load.php(1308): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php on line 554
+[18-Feb-2026 20:41:05 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:05 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/index.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:05 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:05 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:05 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "as_next_scheduled_action" not found or invalid function name in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php:554
+Stack trace:
+#0 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(554): call_user_func('as_next_schedul...', 'wc_schedule_pen...')
+#1 /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php(86): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors()
+#2 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/load.php(1308): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php on line 554
+[18-Feb-2026 20:41:08 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:08 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/index.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:08 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:41:12 UTC] Vendor Loader: Checking directory: /var/www/html/wp-content/vendor-plugins
+[18-Feb-2026 20:41:12 UTC] Vendor Loader: Loaded plugin: woocommerce
+[18-Feb-2026 20:41:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Automattic\WooCommerce\Admin\WC_ADMIN_ABSPATH" in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:41:12 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:45:17 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:08 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:08 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:09 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:09 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:10 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:10 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:11 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:11 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:12 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:12 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:50:12 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:50:12 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:53:19 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/mu-plugins/vendor-loader.php on line 21
+[18-Feb-2026 20:53:19 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:53:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:53:19 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:56:10 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/mu-plugins/vendor-loader.php on line 21
+[18-Feb-2026 20:56:10 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:56:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:534
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 534
+[18-Feb-2026 20:56:10 UTC] PHP Deprecated:  Creation of dynamic property ftp::$features is deprecated in /var/www/html/wp-admin/includes/class-ftp.php on line 161
+[18-Feb-2026 20:59:34 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/mu-plugins/vendor-loader.php on line 21
+[18-Feb-2026 20:59:34 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 20:59:34 UTC] PHP Warning:  require_once(/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 512
+[18-Feb-2026 20:59:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/includes/react-admin/connect-existing-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php:512
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(341): Automattic\WooCommerce\Admin\PageController->register_page_handler('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(437): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(163): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/vendor-plugins/woocommerce/src/Admin/PageController.php on line 512
+[18-Feb-2026 21:01:28 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:01:30 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:01:30 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:02:30 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:03:32 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:03:43 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:03:44 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[18-Feb-2026 21:03:44 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
+[19-Feb-2026 07:51:10 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /var/www/html/wp-includes/functions.php on line 6131
