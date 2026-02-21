@@ -14,3 +14,7 @@ wordpress_data/
 /wp-content/plugins/
 /wp-content/themes/
 wp-config.php
+/wp-content/vendor-plugins/
+/vendor/
+
+
