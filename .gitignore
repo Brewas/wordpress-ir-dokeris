@@ -11,8 +11,8 @@ wordpress_data/
 # wordpresso failai
 /wp-content/uploads/
 /wp-content/cache/
-/wp-content/vendor/
-/wp-content/wp-content/
+/wp-content/plugins/
+/wp-content/themes/
 wp-config.php
 /wp-content/vendor-plugins/
 /vendor/
