@@ -1,0 +1,98 @@
+<?php
+/**
+ * Astra Child Theme functions and definitions
+ */
+
+function astra_child_enqueue_styles() {
+    // Įkelti tėvinės temos CSS
+    wp_enqueue_style('astra-parent-style', get_template_directory_uri() . '/style.css');
+    
+    // Įkelia child temos css priklausomai nuo tevines
+    wp_enqueue_style('astra-child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array('astra-parent-style'),
+        wp_get_theme()->get('Version')
+    );
+}
+add_action('wp_enqueue_scripts', 'astra_child_enqueue_styles');
+
+
+if (!function_exists('__st')) {
+    function __st($key, $default = '') {
+        // jūsų vertimų kodas čia
+        $translations = [
+            // ...
+        ];
+        
+        $lang = isset($_GET['lang']) ? $_GET['lang'] : 'lt';
+        
+        return isset($translations[$key][$lang]) ? $translations[$key][$lang] : $default;
+    }
+}
+
+
+// Išsaugoti kalbą sesijoje
+add_action('init', function() {
+    if (!session_id()) {
+        session_start();
+    }
+    
+    if (isset($_POST['language'])) {
+        $_SESSION['site_language'] = $_POST['language'];
+    }
+});
+
+
+<?php
+/**
+ * Astra Child Theme functions and definitions
+ */
+
+// Įkelti child temos stilius
+add_action('wp_enqueue_scripts', 'astra_child_enqueue_styles', 99);
+
+function astra_child_enqueue_styles() {
+    // Įkelti tėvinės temos CSS
+    wp_enqueue_style('astra-parent-style', get_template_directory_uri() . '/style.css');
+    
+    // Įkelti child temos CSS - PRIKLAUSOMAS nuo tėvinės
+    wp_enqueue_style('astra-child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array('astra-parent-style'),
+        wp_get_theme()->get('Version')
+    );
+    
+    // Debug - patikrinti ar įkelia
+    if (defined('WP_DEBUG') && WP_DEBUG) {
+        error_log('Astra Child CSS įkeltas: ' . get_stylesheet_directory_uri() . '/style.css');
+    }
+}
+
+// Optional: Įkelti papildomą CSS tik tam tikriems puslapiams
+add_action('wp_enqueue_scripts', 'astra_child_custom_page_styles');
+
+function astra_child_custom_page_styles() {
+    // Jei esame verčiamame puslapyje, įkelti papildomą CSS
+    if (is_page_template('page-translated.php')) {
+        wp_enqueue_style('translated-page-style',
+            get_stylesheet_directory_uri() . '/assets/css/translated-page.css',
+            array('astra-child-style'),
+            '1.0'
+        );
+    }
+}
+
+// Jei turite JavaScript
+add_action('wp_enqueue_scripts', 'astra_child_enqueue_scripts');
+
+function astra_child_enqueue_scripts() {
+    // Įkelti JavaScript (jei turite)
+    if (file_exists(get_stylesheet_directory() . '/assets/js/main.js')) {
+        wp_enqueue_script('astra-child-script',
+            get_stylesheet_directory_uri() . '/assets/js/main.js',
+            array('jquery'),
+            '1.0',
+            true
+        );
+    }
+}

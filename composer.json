@@ -8,7 +8,7 @@
 
   "require": {
     "composer/installers": "^2.0",
-    "wpackagist-plugin/woocommerce": "^8.0"
+    "wpackagist-plugin/woocommerce": "10.5.0"
   },
 
   "extra": {
